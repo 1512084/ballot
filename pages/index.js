@@ -31,7 +31,7 @@ class BallotIndex extends Component{
        <Layout>
        <div>
        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.1/semantic.min.css"></link>
-       <h3>List of ballots</h3>
+       <h3>MỘT CHIẾC TRÀ SỮA</h3>
        <Link route="ballots/new">
        <a>
        <Button
