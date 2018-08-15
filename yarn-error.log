@@ -1,0 +1,53 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js
+
+PATH: 
+  /Library/Frameworks/Python.framework/Versions/3.6/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Wireshark.app/Contents/MacOS:/Library/Frameworks/Python.framework/Versions/3.6/bin:/Users/nguyendanhkhoi/Library/Android/sdk/tools:/Users/nguyendanhkhoi/Library/Android/sdk/platform-tools:/usr/local/mongodb/bin:/Users/nguyendanhkhoi/Library/Android/sdk/tools:/Users/nguyendanhkhoi/Library/Android/sdk/platform-tools:/usr/local/mongodb/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  10.8.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "ballot",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha",
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+      "ethereumjs-wallet": "^0.6.0",
+      "fs-extra": "^7.0.0",
+      "ganache-cli": "^6.1.6",
+      "mocha": "^5.2.0",
+      "next": "^4.1.4",
+      "next-routes": "^1.4.2",
+      "react": "^16.4.2",
+      "react-dom": "^16.4.2",
+      "semantic-ui-css": "^2.3.3",
+      "semantic-ui-react": "^0.82.1",
+      "solc": "^0.4.24",
+      "truffle-hdwallet-provider": "0.0.3",
+      "web3": "^1.0.0-beta.26"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.yarnpkg.com/ganache-cli/-/ganache-cli-6.1.7.tgz: unexpected end of file
+      at Zlib.zlibOnError [as onerror] (zlib.js:153:17)
